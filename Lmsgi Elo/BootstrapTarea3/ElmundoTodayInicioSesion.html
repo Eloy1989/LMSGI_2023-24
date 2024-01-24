@@ -68,7 +68,7 @@
                 </ul>
             </div>
             <div class="row col-sm-3 justify-content-center">
-                <img class="imag" src="imagen.html\logo-elmundotoday.jpg" height="76px">
+                <img class="imag" src="img/logo-elmundotoday.jpg" height="76px">
             </div>
             <div class="row col-sm-3 justify-content-center">
                 <a href="ElmundoTodayInicioSesion.html" type="button" class="btn">Iniciar sesion</a>
@@ -117,15 +117,34 @@
                         <path
                             d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
                     </svg>
-                </li>
+                </li> 
             </ul>
         </nav>
         <nav>
             <div class="container-fluid">
-                <div class="container-fluid p-5 bg-dark text-center text-white ">
+            <div class="col-sm-12">
+                <div class="p-5 bg-dark text-center text-white ">
                   <h1>INICIAR SESION</div>
               </div>
         </nav>
-</body>
+        <form action="/action_page.php">
+            <div class="container-fluid">
+            <div class="col-sm-4">
+            <div class="mb-3 mt-5">
+              <label for="email" class="form-label">Nombre de usuario o correo electrónico:</label>
+              <input type="email" class="form-control" id="email"  name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="pwd" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Acceder</button>
+          </form> 
 
+</body>
 </html>
