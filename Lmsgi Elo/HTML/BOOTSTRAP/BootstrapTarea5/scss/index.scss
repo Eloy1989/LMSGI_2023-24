@@ -1,6 +1,7 @@
 /* Define standard variables and values for website */
 $bgcolor: rgb(240, 109, 21);
-$textcolor: rgb(68, 68, 76);
+$textcolor: rgb(59, 59, 66);
+$textcolor1: rgb(93, 93, 98);
 $fontsize: 24px;
 
 /* Use the variables */
@@ -11,8 +12,7 @@ body {
 }
 
 .h3 {
-  $textcolor: rgb(68, 68, 76);
-
+  color: $textcolor1;
 }
 
 .r {
