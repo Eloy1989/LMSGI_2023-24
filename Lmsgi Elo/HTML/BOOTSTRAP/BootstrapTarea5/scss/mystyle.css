@@ -1,16 +1,12 @@
 /* Define standard variables and values for website */
 /* Use the variables */
 body {
-  background-color: rgb(236, 184, 149);
-  color: rgb(59, 59, 66);
+  background-color: rgb(183, 87, 22);
+  color: rgb(68, 68, 76);
   font-size: 24px;
 }
-.h3 {
-  color: rgb(93, 93, 98);
-}
+
 .r {
   height: 24px;
   width: 25px;
-}
-
-/*# sourceMappingURL=mystyle.css.map */
+}/*# sourceMappingURL=mystyle.css.map */
