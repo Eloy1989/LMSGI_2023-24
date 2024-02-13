@@ -1,8 +1,10 @@
 /* Define standard variables and values for website */
-$bgcolor: rgb(230, 223, 219);
+$bgcolor: rgb(237, 227, 221);
 $textcolor: rgb(59, 59, 66);
 $fontsize: 21px;
 $myColor: green;
+
+
 
 /* Use the variables */
 body {
@@ -21,4 +23,8 @@ h3 {
 }
 #div2 {
   color: $myColor; 
+}
+#button {
+  $myColor: rgb(27, 159, 159);
+  color: $myColor;
 }
