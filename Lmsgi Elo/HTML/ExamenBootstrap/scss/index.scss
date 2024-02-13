@@ -1,0 +1,11 @@
+$bgcolor: rgb(230, 223, 219);
+$textcolor: rgb(59, 59, 66);
+$fontsize: 21px;
+$myColor: green;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
